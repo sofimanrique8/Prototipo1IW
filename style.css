@@ -79,26 +79,25 @@ header .logo {
 
 /* //// ÍNDICE HORIZONTAL //// */
 .indice-horizontal {
-    position: sticky;      /* se queda visible al hacer scroll */
-    top: 0;                /* distancia desde el top */
+    position: sticky;      
+    top: 0;               
     left: 0;
-    width: 100%;           /* ocupa todo el ancho de la página */
-    background: #f4efe9;   /* fondo cálido */
+    width: 100%;           
+    background: #f4efe9;   
     padding: 0.5rem 2%;
     text-align: center;
     border-bottom: 1px solid #e0d8cf;
     font-family: Georgia, "Times New Roman", serif;
-    z-index: 999;          /* para que quede encima de otros elementos */
+    z-index: 999;          
 }
 
-/* lista horizontal */
 .indice-horizontal ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* centra los enlaces */
-    gap: 2rem;              /* espacio entre enlaces */
+    justify-content: center; 
+    gap: 2rem;              
 }
 
 .indice-horizontal a {
@@ -120,7 +119,7 @@ header .logo {
 footer {
     text-align: center;
     padding: 2.5rem 5%;
-    background: #e6e2dd; /* fondo claro y cálido */
+    background: #e6e2dd; 
     color: #333;
     border-top: 1px solid #cfc8c1;
     font-family: Arial, Helvetica, sans-serif;
@@ -485,7 +484,7 @@ footer a:hover {
 }
 
 .detalle-contenido img {
-    flex: 0 0 400px; /* ancho aumentado a 250px */
+    flex: 0 0 400px; 
     width: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -571,9 +570,9 @@ legend {
 }
 
 .boton-regresar {
-    display: block;               /* se comporta como bloque */
-    width: max-content;           /* ancho según el contenido */
-    margin: 1.5rem auto 1.5rem auto;  /* centrado horizontal con margen automático */
+    display: block;               
+    width: max-content;          
+    margin: 1.5rem auto 1.5rem auto;  
     padding: 0.5rem 1rem;
     background-color: #7b5e3c;  
     color: #fff;
@@ -581,7 +580,7 @@ legend {
     font-size: 0.9rem;
     text-decoration: none;
     border-radius: 4px;
-    text-align: center;           /* asegura que el texto interno esté centrado */
+    text-align: center;           
 }
 
 .boton-regresar:hover {
@@ -713,12 +712,12 @@ legend {
     flex-direction: column;
 }
 .evento-vertical .evento-info h3 {
-    font-family: Georgia, "Times New Roman", serif; /* Tipografía elegante */
-    font-size: 1.3rem;       /* Más pequeño y proporcional */
-    color: #8c6b4f;           /* Color cálido, más suave que el h2 */
-    margin-bottom: 0.4rem;    /* Menos espacio para que quede compacto */
-    text-align: center;       /* Centrado horizontal */
-    font-weight: 400;         /* Ligero y elegante */
+    font-family: Georgia, "Times New Roman", serif; 
+    font-size: 1.3rem;       
+    color: #8c6b4f;           
+    margin-bottom: 0.4rem;    
+    text-align: center;       
+    font-weight: 400;        
 }
 
 
@@ -756,16 +755,16 @@ legend {
     max-width: 1200px;
     margin: 3rem auto;
     text-align: center;
-    font-family: "Segoe UI", Arial, sans-serif; /* igual que body */
+    font-family: "Segoe UI", Arial, sans-serif; 
 }
 
 .categoria-galeria h2 {
-    font-family: Georgia, "Times New Roman", serif; /* igual que otros sub-títulos */
-    font-size: 1.3rem; /* un poco más grande para uniformidad */
+    font-family: Georgia, "Times New Roman", serif; 
+    font-size: 1.3rem; 
     font-weight: 400;
     color: #8c6b4f;
     margin-bottom: 1rem;
-    text-align: center; /* centramos igual que otros títulos */
+    text-align: center; 
 }
 .imagenes-galeria {
     display: grid;
