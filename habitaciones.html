@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Paraiso</title>
+    <!-- Enlace al CSS principal de la web -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- Header: Logo del hotel y navegación principal -->
+    <header> 
+        <div class="logo_principal">
+            <img src="img/logo.png" class="logo"  alt="Logotipo Principal">
+            <div class="titulo">
+                <h1>Hotel Paraíso</h1>
+                <p class="slogan">El sueño hecho realidad</p>
+            </div>
+        </div>
+        <!-- Menú de navegación principal -->
+        <nav class="navegacion_principal">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="habitaciones.html">Habitaciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="eventos.html">Eventos</a>
+        </nav>
+    </header>
+    <!-- Índice horizontal: enlaces rápidos a cada tipo de habitación y tabla de información -->
+    <aside class="indice-horizontal">
+        <ul>
+            <li><a href="#individual">Individual</a></li>
+            <li><a href="#doble">Doble</a></li>
+            <li><a href="#premium">Premium</a></li>
+            <li><a href="#suite">Suite</a></li>
+            <li><a href="#tabla">Información</a></li>
+        </ul>
+    </aside>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Encabezado principal de la sección de habitaciones -->
+        <header class="main-header">
+            <h2>Nuestras habitaciones</h2>
+            <p>Explora nuestras habitaciones y sus comodidades antes de reservar.<p>
+        </header>
+        <!-- Sección galerías de habitaciones organizadas por tipo -->
+        <section class="habitaciones">
+            <div class="galerias-habitaciones">
+                <!-- Habitación Individual -->
+                <h3>Individual</h3>
+                <div id="individual" class="galeria-habitacion">
+                    <img src="img/habitacionIndividual1.png" alt="Habitación Individual 1">
+                    <img src="img/habitacionIndividual2.png" alt="Habitación Individual 2">
+                    <img src="img/habitacionIndividual3.png" alt="Habitación Individual 3">
+                </div>
+                <!-- Habitación Doble -->
+                <h3>Doble</h3>
+                <div id="doble" class="galeria-habitacion">
+                    <img src="img/habitacionDoble1.png" alt="Habitación Doble 1">
+                    <img src="img/habitacionDoble2.png" alt="Habitación Doble 2">
+                    <img src="img/habitacionDoble3.png" alt="Habitación Doble 3">
+                </div>
+                <!-- Habitación Premium -->
+                <h3>Premium</h3>
+                <div id="premium" class="galeria-habitacion">
+                    <img src="img/premium1.png" alt="Habitación Premium 1">
+                    <img src="img/premium2.png" alt="Habitación Premium 2">
+                    <img src="img/premium3.png" alt="Habitación Premium 3">
+                </div>
+                <!-- Habitación Suite -->
+                <h3>Suite</h3>
+                <div id="suite" class="galeria-habitacion">
+                    <img src="img/suite1.png" alt="Suite 1">
+                    <img src="img/suite2.png" alt="Suite 2">
+                    <img src="img/suite3.png" alt="Suite 3">
+                </div>
+            </div>
+            <!-- Sección tabla de información de habitaciones -->
+            <h2>Elige la habitacion perefecta para tu estancia:</h2>
+            <table id="tabla" class="tabla-habitaciones" >
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Capacidad</th>
+                        <th>Desayuno</th>
+                        <th>Wifi</th>
+                        <th>Spa</th>
+                        <th>Terraza</th>
+                        <th>Piscina privada</th>
+                        <th>Precio por noche</th>
+                        <th>Reservar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Individual</td>
+                        <td>1 persona</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>80€</td>
+                        <td><a href="reservas.html" class="boton-reservar">Reservar ahora</a></td>
+                    </tr>
+                    <tr>
+                        <td>Doble</td>
+                        <td>2 personas</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>120€</td>
+                        <td><a href="reservas.html" class="boton-reservar">Reservar ahora</a></td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>2 personas</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>No</td>
+                        <td>170€</td>
+                        <td><a href="reservas.html" class="boton-reservar">Reservar ahora</a></td>
+                    </tr>
+                    <tr>
+                        <td>Suite</td>
+                        <td>2-4 personas</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>240€</td>
+                        <td><a href="reservas.html" class="boton-reservar">Reservar ahora</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- FOOTER interno de la sección de habitaciones -->
+        <footer class="main-footer">
+            <p>Encuentra la que más se adapte a ti y disfruta.</p>
+        </footer>
+    </main>
+    <!-- FOOTER GENERAL DEL SITIO: contacto y redes sociales -->
+    <footer id="footer">
+        <div class="contacto">
+            <a class="logo" href="index.html">Hotel Paraíso</a>
+            <p> &copy; 2025 Hotel Paraíso. Todos los derechos reservados.</p>
+            <h2>Dirección</h2>
+            <address>
+                Calle Paraíso 15<br>
+                Menorca, España<br>
+                <a href="tel:+34722131155">Teléfono: +34 722 131 155</a><br>
+                <a href="mailto:hotelParaiso15@gmail.com">Correo: info@hotelparaiso.com</a>
+            </address>
+        </div>
+        <div class="redes_sociales">
+            <h2>Síguenos</h2>
+            <div class="enlaces-redes">
+                <a href="https://www.facebook.com" >Facebook</a>
+                <a href="https://www.instagram.com" >Instagram</a>
+                <a href="https://www.twitter.com" >Twitter</a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

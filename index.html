@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Paraiso</title>
+    <!-- Enlace al CSS principal de la web -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- Header: Logo y navegación principal -->
+    <header> 
+        <div class="logo_principal">
+            <img src="img/logo.png" class="logo" alt="Logotipo Principal">
+            <div class="titulo">
+                <h1>Hotel Paraíso</h1>
+                <p class="slogan">El sueño hecho realidad</p>
+            </div>
+        </div>
+        <!-- Menú de navegación principal -->
+        <nav class="navegacion_principal">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="habitaciones.html">Habitaciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="eventos.html">Eventos</a>
+        </nav>
+    </header>
+    <!-- Índice horizontal: navegación interna de la página -->
+    <aside class="indice-horizontal">
+        <ul>
+            <li><a href="#imagen-galeria-principal">Inicio</a></li>
+            <li><a href="#texto-hotel">Sobre nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+        </ul>
+    </aside>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Sección información principal del hotel con imágenes y texto -->
+        <section id="hotel-info" class="hotel-info">
+            <div id="imagen-galeria-principal" class="imagen-galeria-principal">
+                <a href="galeria.html">
+                    <img src="img/vistaHotel.jpeg" alt="Ver galería del Hotel">
+                </a>
+            </div>
+            <!-- Imágenes secundarias destacadas -->
+            <div class="imagen-galeria-secundarias">
+                <a href="galeria.html">
+                    <img src="img/habitacion1.jpeg" alt="Habitación 1">
+                </a>
+                <a href="galeria.html">
+                    <img src="img/spa.jpg" alt="Piscina del Hotel">
+                </a>
+            </div>
+            <!-- Texto descriptivo y características del hotel -->
+            <div id="texto-hotel" class="texto-hotel">
+                <div class="columna-izquierda">
+                    <h2>El hotel</h2>
+                    <p>Hotel Paraiso no es un simple alojamiento: es el “Hotel de Menorca”. Un establecimiento que por su elegancia, su historia y su ubicación ha contribuido de manera decisiva a imprimir personalidad y elegancia al alma de la isla. El Hotel Paraiso, situado frente a la cala Fornells, domina la bahía de menorca desde lo alto de la colina en que se erige, rodeado de sus propios jardines y disfrutando de la zona más tranquila y emblemática de la isla.</p>
+                    <br>
+                    <p>Cada rincón del Hotel Paraíso ha sido diseñado para ofrecer una experiencia única de lujo y confort. Sus habitaciones combinan el encanto rústico menorquín con las comodidades más modernas, desde terrazas privadas con vistas al mar hasta detalles artesanales que reflejan la esencia de la isla.  En nuestros jardines, los huéspedes pueden relajarse entre olivos centenarios y flores mediterráneas, mientras disfrutan del sonido del mar y la brisa tranquila de la costa norte. Además, nuestro restaurante ofrece una selección de platos gourmet elaborados con productos locales, garantizando una experiencia culinaria que deleita todos los sentidos.</p>
+                    <br>
+                    <p>El Hotel Paraíso no solo es un refugio de descanso, sino también un punto de partida perfecto para explorar Menorca: calas escondidas, rutas de senderismo, y la riqueza cultural de sus pueblos cercanos están a solo unos minutos. Cada estancia aquí se convierte en un recuerdo inolvidable, donde el lujo se mezcla con la autenticidad y la tranquilidad de la isla.</p>
+
+                </div>
+                <div class="columna-derecha">
+                    <!-- Información práctica del hotel -->
+                    <h2>Número de habitaciones</h2>
+                    <p>315</p>
+                    <h2>Mascotas</h2>
+                    <p>No está permitido alojar mascotas</p>
+                    <h2>Aparcamiento</h2>
+                    <p>Sí</p>
+                    <h2>Horario desayuno</h2>
+                    <p>De 7:30 a 10:30 de lunes a viernes y de 8:00 a 11:00 los fines de semana y festivos</p>
+                    <h2>Restaurante</h2>
+                    <p>De 20:00 a 23:00 hasta el 14/09. A partir del 15/09 de jueves a lunes de 20:00 a 23:00.</p>
+                    <h2>Cafetería</h2>
+                    <p>De lunes a viernes de 10:30 a 00:00. Sábado, domingo y festivos de 11:00 a 00:00.</p>
+                    <h2>Gimnasio</h2>
+                    <p>De 7:00 a 23:00 horas.</p>
+                </div>
+            </div>
+        </section>  
+        <!-- Sección servicios del hotel -->
+        <section id="servicios" class="servicios">
+            <h2>Nuestros servicios</h2>
+            <div class="lista-servicios">
+                <div class="servicio">
+                    <a href="servicios.html#restaurante">
+                        <img src="img/restaurante.webp" alt="Restaurante">
+                        <p>Restaurante</p>
+                    </a>
+                </div>
+                <div class="servicio">
+                    <a href="servicios.html#piscina">
+                        <img src="img/piscina.jpeg" alt="Piscina">
+                        <p>Piscina exterior</p>
+                    </a>
+                </div>
+                <div class="servicio">
+                    <a href="servicios.html#spa">
+                        <img src="img/spa.jpg" alt="Spa">
+                        <p>Spa y bienestar</p>
+                    </a>
+                </div>
+                <div class="servicio">
+                    <a href="servicios.html#gimnasio">
+                        <img src="img/gimnasio.jpg" alt="Gimnasio">
+                        <p>Gimnasio equipado</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Cta principal: botones de acción -->
+        <div id="cta-principal" class="cta-principal">
+            <a href="reservas.html" class="boton-reservar">Reservar ahora</a>
+            <a href="habitaciones.html" class="boton-ver-habitaciones">Ver habitaciones</a>
+        </div>
+        <!-- Sección eventos y noticias -->
+        <section id="eventos" class="eventos">
+            <h2>Noticias y Eventos</h2>
+            <div class="lista-eventos">
+                <!-- Cada artículo representa un evento -->
+                <article class="evento">
+                    <a href="eventos.html#sanjuan">
+                        <img src="img/evento1.jpeg" alt="Fiesta de San Juan en la playa">
+                        <h3>Fiesta de San Juan</h3>
+                        <p class="fecha">23 de junio</p>
+                        <p>Vive la mágica noche de San Juan frente al mar con hogueras, música en vivo y cócteles especiales.</p>
+                    </a>
+                </article>
+                <article class="evento">
+                    <a href="eventos.html#concierto">
+                        <img src="img/evento2.jpeg" alt="Concierto de jazz en el hotel">
+                        <h3>Concierto de Jazz</h3>
+                        <p class="fecha">15 de julio</p>
+                        <p>Disfruta de una velada única con nuestro ciclo de conciertos de jazz en la terraza del hotel.</p>
+                    </a>
+                </article>
+                <article class="evento">
+                    <a href="eventos.html#semanaGastronomica">
+                        <img src="img/evento3.jpeg" alt="Semana gastronómica en el restaurante del hotel">
+                        <h3>Semana Gastronómica</h3>
+                        <p class="fecha">Del 5 al 12 de agosto</p>
+                        <p>Descubre sabores únicos con nuestro menú especial preparado por chefs invitados de la isla.</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER: contacto y redes sociales -->
+    <footer id="footer">
+        <div class="contacto">
+            <a class="logo" href="index.html">Hotel Paraíso</a>
+            <p> &copy; 2025 Hotel Paraíso. Todos los derechos reservados.</p>
+            <h2>Dirección</h2>
+            <address>
+                Calle Paraíso 15<br>
+                Menorca, España<br>
+                <a href="tel:+34722131155">Teléfono: +34 722 131 155</a><br>
+                <a href="mailto:hotelParaiso15@gmail.com">Correo: info@hotelparaiso.com</a>
+            </address>
+        </div>
+        <div class="redes_sociales">
+            <h2>Síguenos</h2>
+            <div class="enlaces-redes">
+                <a href="https://www.facebook.com" >Facebook</a>
+                <a href="https://www.instagram.com" >Instagram</a>
+                <a href="https://www.twitter.com" >Twitter</a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

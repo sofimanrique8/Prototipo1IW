@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Paraiso</title>
+    <!-- Enlace al CSS principal del sitio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- Header: Contiene logo del hotel, slogan y menú de navegación principal -->
+    <header> 
+        <div class="logo_principal">
+            <img src="img/logo.png" class="logo"  alt="Logotipo Principal">
+            <div class="titulo">
+                <h1>Hotel Paraíso</h1>
+                <p class="slogan">El sueño hecho realidad</p>
+            </div>
+        </div>
+        <!-- Menú de navegación principal -->
+        <nav class="navegacion_principal">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="habitaciones.html">Habitaciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="eventos.html">Eventos</a>
+        </nav>
+    </header>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Encabezado principal de la sección de habitaciones -->
+        <header class="main-header">
+            <h2>Reserva tu estancia en el Hotel Paraíso</h2>
+            <p>Completa el formulario y asegura tu habitación con nosotros.</p>
+        </header>
+        <!-- Formulario de reserva: Secciones de datos personales, fechas, habitación, número de personas, preferencias y comentarios -->
+        <div class="reserva">
+            <form class="form-reserva" action="reservas2.html" method="post">
+                <!-- Datos personales -->
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
+                    </div>
+                </fieldset>
+                <!-- Fechas de estancia -->
+                <fieldset>
+                    <legend>Fechas de estancia</legend>
+                    <div class="form-group">
+                        <label for="fecha-entrada">Fecha de entrada</label>
+                        <input type="date" id="fecha-entrada" name="fecha-entrada" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha-salida">Fecha de salida</label>
+                        <input type="date" id="fecha-salida" name="fecha-salida" required>
+                    </div>
+                </fieldset>
+                 <!-- Tipo de habitación -->
+                <fieldset>
+                    <legend>Tipo de habitación</legend>
+                    <div class="form-group">
+                        <label><input type="radio" name="habitacion" value="individual" required> Individual</label>
+                        <label><input type="radio" name="habitacion" value="doble"> Doble</label>
+                        <label><input type="radio" name="habitacion" value="premium"> Premium</label>
+                        <label><input type="radio" name="habitacion" value="suite"> Suite</label>
+                    </div>
+                </fieldset>
+                <!-- Número de personas -->
+                <fieldset>
+                    <legend>Número de personas</legend>
+                    <div class="form-group">
+                        <label for="adultos">Adultos</label>
+                        <select id="adultos" name="adultos" required>
+                            <option value="" disabled selected>Selecciona número de adultos</option>
+                            <option value="1">1 adulto</option>
+                            <option value="2">2 adultos</option>
+                            <option value="3">3 adultos</option>
+                            <option value="4">4 adultos</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="ninos">Niños</label>
+                        <select id="ninos" name="ninos">
+                            <option value="" disabled selected>Selecciona número de niños</option>
+                            <option value="0">0 niños</option>
+                            <option value="1">1 niño</option>
+                            <option value="2">2 niños</option>
+                            <option value="3">3 niños</option>
+                        </select>
+
+                    </div>
+                </fieldset>
+                <!-- Preferencias de habitación -->
+                <fieldset>
+                    <legend>Preferencias de habitación</legend>
+                    <div class="form-group">
+                        <label><input type="checkbox" name="preferencias" value="vista-mar"> Vista al mar</label>
+                        <label><input type="checkbox" name="preferencias" value="balcon"> Balcón privado</label>
+                        <label><input type="checkbox" name="preferencias" value="cuna"> Cuna para bebé</label>
+                    </div>
+                </fieldset>
+                <!-- Comentarios adicionales -->
+                <fieldset>
+                    <legend>Comentarios adicionales</legend>
+                    <div class="form-group">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Si tienes alguna solicitud especial..."></textarea>
+                    </div>
+                </fieldset>
+                <!-- Botón para finalizar la reserva -->
+                <button type="submit" class="boton-reservar">Reservar ahora</button>
+            </form>
+        </div>
+        <!-- FOOTER interno de la sección de reservas -->
+        <footer class="main-footer">
+            <p>¿Tienes dudas sobre tu reserva? Llámanos al <a href="tel:+34123456789">+34 123 456 789</a></p>
+        </footer>
+    </main>
+    <!-- FOOTER GENERAL DEL SITIO: contacto y redes sociales -->
+    <footer id="footer">
+        <div class="contacto">
+            <a class="logo" href="index.html">Hotel Paraíso</a>
+            <p> &copy; 2025 Hotel Paraíso. Todos los derechos reservados.</p>
+            <h2>Dirección</h2>
+            <address>
+                Calle Paraíso 15<br>
+                Menorca, España<br>
+                <a href="tel:+34722131155">Teléfono: +34 722 131 155</a><br>
+                <a href="mailto:hotelParaiso15@gmail.com">Correo: info@hotelparaiso.com</a>
+            </address>
+        </div>
+        <div class="redes_sociales">
+            <h2>Síguenos</h2>
+            <div class="enlaces-redes">
+                <a href="https://www.facebook.com" >Facebook</a>
+                <a href="https://www.instagram.com" >Instagram</a>
+                <a href="https://www.twitter.com" >Twitter</a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

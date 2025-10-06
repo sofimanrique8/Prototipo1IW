@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Paraiso</title>
+    <!-- Enlace al CSS principal de la web -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- Header: Logo del hotel y navegación principal -->
+    <header> 
+        <div class="logo_principal">
+            <img src="img/logo.png" class="logo"  alt="Logotipo Principal">
+            <div class="titulo">
+                <h1>Hotel Paraíso</h1>
+                <p class="slogan">El sueño hecho realidad</p>
+            </div>
+        </div>
+        <!-- Menú de navegación principal -->
+        <nav class="navegacion_principal">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="habitaciones.html">Habitaciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="eventos.html">Eventos</a>
+        </nav>
+    </header>
+    <!-- Índice horizontal: enlaces rápidos a cada evento -->
+    <aside class="indice-horizontal">
+        <ul>
+            <li><a href="#sanjuan">Noche de San Juan</a></li>
+            <li><a href="#concierto">Concierto inolvidable</a></li>
+            <li><a href="#semanaGastronomica">Semana gastronómica</a></li>
+        </ul>
+    </aside>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Encabezado principal de la sección de eventos -->
+        <header class="main-header">
+            <h2>Eventos Exclusivos</h2>
+            <p>Vive experiencias únicas en nuestro hotel con eventos cuidadosamente diseñados para todos los gustos y momentos especiales.</p>
+        </header>
+        <!-- Sección eventos destacados en formato vertical -->
+        <section class="eventos-verticales">
+            <!-- Evento 1: Noche Mágica de San Juan -->
+            <div id="sanjuan" class="evento-vertical">
+                <div class="evento-img">
+                    <img src="img/evento1.jpeg" alt="Noche mágica de San Juan">
+                </div>
+                <div class="evento-info">
+                    <h3>Noche Mágica de San Juan</h3>
+                    <p class="fecha">24 de Junio</p>
+                    <p>Vive la noche más mágica del año con nuestra celebración de San Juan en el hotel, donde cada detalle está pensado para crear recuerdos inolvidables. Disfruta de música en vivo con bandas locales y DJs que animarán la velada, mientras las fogatas iluminan la playa y el cielo nocturno se llena de luces y magia. Podrás participar en rituales tradicionales de San Juan, degustar cócteles y tapas especiales preparados por nuestros chefs, y relajarte en zonas lounge cuidadosamente decoradas. Para completar la experiencia, al amanecer del día siguiente te espera un desayuno gourmet exclusivo, con productos frescos y locales, para comenzar el día con energía y sabor.</p>
+                </div>
+            </div>
+            <!-- Evento 2: Concierto inolvidable (alineación reversa para variar diseño) -->
+            <div id="concierto" class="evento-vertical reverse">
+                <div class="evento-img">
+                    <img src="img/evento2.jpeg" alt="Concierto inolvidable">
+                </div>
+                <div class="evento-info">
+                    <h3>Concierto Inolvidable</h3>
+                    <p class="fecha">15 de Julio</p>
+                    <p>Disfruta de un concierto único en nuestras instalaciones con artistas de renombre nacional e internacional. La experiencia incluye acceso a zonas VIP con catering gourmet, actividades previas al show y un ambiente íntimo y exclusivo. Todo está diseñado para que cada asistente se sienta parte de un evento excepcional, con atención al detalle, decoración temática y un servicio personalizado que hará que la noche sea inolvidable.</p>
+                    <p>Más detalles en <a href="https://www.menorcajazzfestival.com/es" target="_blank">Menorca Jazz Festival</a></p>
+                </div>
+            </div>
+            <!-- Evento 3: Semana Gastronómica -->
+            <div id="semanaGastronomica" class="evento-vertical">
+                <div class="evento-img">
+                    <img src="img/evento3.jpeg" alt="Semana Gastronómica">
+                </div>
+                <div class="evento-info">
+                    <h3>Semana Gastronómica</h3>
+                    <p class="fecha">5 al 12 de Agosto</p>
+                    <p>Sumérgete en una experiencia culinaria completa con nuestra Semana Gastronómica. Participa en talleres de cocina impartidos por chefs reconocidos, disfruta de catas de vinos selectos y deléitate con menús exclusivos creados para la ocasión. Todo esto acompañado de un ambiente relajante en nuestras instalaciones de spa y wellness, creando un equilibrio perfecto entre sabor, aprendizaje y bienestar.</p>
+                    <p>Consulta más sobre gastronomía y eventos en <a href="https://www.theworlds50best.com/" target="_blank">The World's 50 Best Restaurants</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER interno de la sección principal de eventos -->
+        <footer class="main-footer">
+            <p>No te pierdas nuestras próximas actividades y eventos especiales.</p>
+        </footer>
+    </main>
+    <!-- FOOTER GENERAL DEL SITIO: contacto y redes sociales -->
+    <footer id="footer">
+        <div class="contacto">
+            <a class="logo" href="index.html">Hotel Paraíso</a>
+            <p> &copy; 2025 Hotel Paraíso. Todos los derechos reservados.</p>
+            <h2>Dirección</h2>
+            <address>
+                Calle Paraíso 15<br>
+                Menorca, España<br>
+                <a href="tel:+34722131155">Teléfono: +34 722 131 155</a><br>
+                <a href="mailto:hotelParaiso15@gmail.com">Correo: info@hotelparaiso.com</a>
+            </address>
+        </div>
+        <div class="redes_sociales">
+            <h2>Síguenos</h2>
+            <div class="enlaces-redes">
+                <a href="https://www.facebook.com" >Facebook</a>
+                <a href="https://www.instagram.com" >Instagram</a>
+                <a href="https://www.twitter.com" >Twitter</a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
